@@ -17,3 +17,16 @@ if y >=0:
     print("3) z =",min(x,y))
 else:
     print("3) z =",max(x2,y2))
+#Задача 2 пункт 2
+if x>=+0:
+    print("2) z=", max)
+else:
+    print("2) z=", min)
+if y>=0:
+    print("3) z=", min)
+else:
+    if x**2 >= y**2:
+        max=x
+    else:
+        min=y
+    print("3) z=", max)
